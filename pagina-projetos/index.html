@@ -5,40 +5,220 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Projetos</title>
 
-  <title>Project page</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Reliable, efficient delivery Powered by Technology
+  <style>
+      
+    .attribution {
+      font-size: 11px; text-align: center;
+    }
+    
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
 
-  Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        color: hsl(234, 12%, 34%);
+        background-color: hsl(0, 0%, 98%);
+        padding: 75px;
+    }
 
+    .alinharcaixas {
+      display: flex;
+      justify-content: center;
+    }
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+    .alinharcaixa1 {
+      display: flex;
+      flex-direction: row;
+      align-self: start;
+      justify-self: center;
+      padding: 20px;
+    }
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
+    .alinharcaixa2 {
+      align-self: center;
+      padding: 20px;
+    }
 
-  Karma
-  Regularly evaluates our talent to ensure quality
+    .alinharcaixa3 {
+      align-self: center;
+      padding: 20px;
+    }
 
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+    .alinharcaixa4 {
+      width: 350px;
+      padding: 20px;
+    }
 
+    .meiodapagina {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 
-  <footer>
-    <p class="attribution">
-      Coded by <a href="#">Nome do Aluno</a>.
-    </p>
-  </footer>
+    .caixasmeio {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .caixashorizontal {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .caixadetexto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 550px;
+    }
+
+    .paragrafo1 {
+      color: hsl(229, 6%, 66%);
+    }
+
+    .primeiroh1 {
+      font-size: 36px;
+      margin-top: 3px;
+      margin-bottom: 0;
+      font-weight: 200;
+    }
+
+    .segundoh1 {
+      font-size: 36px;
+      font-weight: 600;
+      margin-top: 3px;
+      margin-bottom: 0;
+    }
+
+    .texto1 {
+      margin: 30px;
+      margin-bottom: 10px;
+    }
+
+    .texto2 {
+      font-size: 14px;
+      color: hsl(229, 6%, 66%);
+      margin-left: 30px;
+      margin-top: 0
+    }
+
+    .caixas {
+      width: 1400px;
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .caixa1 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+      border-radius: 10px;
+      border-top: 4px solid hsl(0, 78%, 62%);
+      background-image: url(/images/icon-team-builder.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
+    }
+
+    .caixa2 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+      border-radius: 10px;
+      border-top: 4px solid hsl(180, 62%, 55%);
+      background-image: url(/images/icon-supervisor.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
+    }
+
+    .caixa3 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+      border-radius: 10px;
+      border-top: 4px solid hsl(212, 86%, 64%);
+      background-image: url(/images/icon-calculator.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
+    }
+
+    .caixa4 {
+      width: 350px;
+      height: 250px;
+      background-color: white;
+      box-shadow: 1px 10px 15px hsl(231, 23%, 89%);
+      border-radius: 10px;
+      border-top: 4px solid hsl(34, 97%, 64%);
+      background-image: url(/images/icon-karma.svg);
+      background-repeat: no-repeat;
+      background-position-x: 250px;
+      background-position-y: 150px;
+    }
+
+  </style>
+
+  <div class='meiodapagina'>
+    <div class='caixadetexto'>
+      <h1 class='primeiroh1'>Reliable, efficient delivery</h1>
+      <h1 class='segundoh1'>Powered by Technology</h1>
+
+      <p class='paragrafo1'>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    </div>
+  </div>
+
+  <div class="alinharcaixas">
+    <div class='caixas'>
+
+      <div class='caixashorizontal'>
+        <div class="alinharcaixa2">
+          <div class='caixa2'>
+            <h2 class="texto1">Supervisor</h2>
+            <p class="texto2">Monitors activity to identify project roadblocks</p>
+          </div>
+        </div>
+
+        <div class='caixasmeio'>
+          <div class='alinharcaixa1'>
+            <div class='caixa1'>
+              <h2 class="texto1">Team Builder</h2>
+              <p class="texto2">Scans our talent network to create the optimal team for your project</p>
+            </div>
+          </div>
+  
+          <div class='alinharcaixa3'>
+            <div class='caixa3'>
+              <h2 class="texto1">Calculator</h2>
+              <p class="texto2">Uses data from past projects to provide better delivery estimates</p>
+            </div>
+          </div>    
+        
+          <div class="alinharcaixa4">
+            <div class='caixa4'>
+              <h2 class="texto1">Karma</h2>
+              <p class="texto2">Regularly evaluates our talent to ensure quality</p>
+            </div>
+          </div>
+    </div>
+  </div>
+
 </body>
 </html>
